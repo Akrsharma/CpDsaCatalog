@@ -36,6 +36,17 @@
             </LeetcodeEditor>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/src/main/java/org/avadhesh/leetcode/leetcode/editor/en/PascalsTriangle118.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="$PROJECT_DIR$/src/main/java/org/avadhesh/leetcode/leetcode/editor/en/doc/content/PascalsTriangle118.md" />
+              <option name="frontendQuestionId" value="leetcode.com118" />
+              <option name="host" value="leetcode.com" />
+              <option name="path" value="$PROJECT_DIR$/src/main/java/org/avadhesh/leetcode/leetcode/editor/en/PascalsTriangle118.java" />
+              <option name="titleSlug" value="pascals-triangle" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/../JavaCatalog/leetcode/editor/en/[213]House Robber II.java">
           <value>
             <LeetcodeEditor>

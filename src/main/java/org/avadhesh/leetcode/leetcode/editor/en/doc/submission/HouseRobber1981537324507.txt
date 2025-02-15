@@ -1,0 +1,21 @@
+class Solution {
+     
+    public int rob(int[] nums) {
+        int size = nums.length;
+        int prev1=0, prev2 = nums[0];
+        int ans = nums[0];
+        for(int i=2; i<=size; i++) {
+            int pick = nums[i-1] + prev1;
+            int notPick = prev2;
+            ans = Math.max(pick, notPick);
+            prev1 = prev2;
+            prev2 = ans;
+        }
+
+        return ans;
+
+        
+    }
+}
+//runtime:0 ms
+//memory:41.2 MB

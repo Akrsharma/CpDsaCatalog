@@ -1,0 +1,24 @@
+class Solution {
+    private int rob(int n, int[] nums, int[] dp) {
+        if(n==1) return nums[n-1];
+        if(n==0) return 0;
+        
+        if(dp[n] != -1) return dp[n];
+
+        int pick = nums[n-1] + rob(n-2, nums, dp);
+        int notPick = rob(n-1, nums, dp);
+
+        return dp[n] = Math.max(pick, notPick);
+    }
+     
+    public int rob(int[] nums) {
+        int size = nums.length;
+        int[] dp = new int[size+1];
+        Arrays.fill(dp,-1);
+
+        return rob(size, nums, dp);
+        
+    }
+}
+//runtime:0 ms
+//memory:41 MB
